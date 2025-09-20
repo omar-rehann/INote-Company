@@ -195,7 +195,7 @@ header .links ul li a.order {
 }
 
 section .background {
-    background-image: url(/img/joinphoto.png);
+    background-image: url(../img/joinphoto.png);
     background-size: cover;
     height: 50vh;
     position: relative;
