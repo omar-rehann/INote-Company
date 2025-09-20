@@ -14,6 +14,7 @@ let servicrs = document.querySelectorAll(".servies .card .card-body p");
 
 
 let footer = document.querySelector(".footer");
+// start anmtion
 AOS.init({
     duration: 2000, // مدة الحركة (بالـ ms)
 });

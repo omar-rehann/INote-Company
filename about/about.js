@@ -8,7 +8,10 @@ let boxes = document.querySelectorAll(".boxes .box");
 let about = document.querySelector(".about .text");
 let about_two = document.querySelector(".about ");
 let footer = document.querySelector(".footer");
-
+// start anmtion
+AOS.init({
+    duration: 2000, // مدة الحركة (بالـ ms)
+});
 icon.onclick = function() {
     links.classList.toggle("active");
     if (icon.classList.contains("fa-bars-staggered")) {
